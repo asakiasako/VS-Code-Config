@@ -1,5 +1,76 @@
 {
-    "path-autocomplete.pathMappings": {
-        "@": "${workspace}/src/renderer"
-    }
+    "workbench.colorTheme": "Darcula",
+    "workbench.colorCustomizations": {
+        "[Darcula]": {
+            "statusBar.background": "#444444",
+            "statusBar.noFolderBackground": "#F06292"
+        }
+    },
+    "files.autoSave": "afterDelay",
+    "workbench.iconTheme": "vscode-icons",
+    "beautify.language": {
+        "js": {
+            "type": [
+                "javascript",
+                "json",
+                "jsonc"
+            ],
+            "filename": [
+                ".jshintrc",
+                ".jsbeautifyrc"
+            ]
+        },
+        "css": [
+            "css",
+            "scss"
+        ],
+        "html": [
+            "htm",
+            "html",
+            "vue"
+        ]
+    },
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "fileheader.Author": "Chongjun.Lei",
+    "fileheader.LastModifiedBy": "Chongjun.Lei",
+    "editor.fontFamily": "'Source Code Pro', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 13,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "vue"
+    ],
+    "cSpell.language": "en",
+    "cSpell.enabledLanguageIds": [
+        "asciidoc",
+        "c",
+        "cpp",
+        "csharp",
+        "css",
+        "go",
+        "handlebars",
+        "html",
+        "jade",
+        "javascript",
+        "javascriptreact",
+        "json",
+        "latex",
+        "less",
+        "markdown",
+        "php",
+        "plaintext",
+        "pub",
+        "python",
+        "restructuredtext",
+        "rust",
+        "scss",
+        "text",
+        "typescript",
+        "typescriptreact",
+        "vue",
+        "yml"
+    ],
+    "python.pythonPath": "python3"
 }
